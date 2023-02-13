@@ -1,0 +1,94 @@
+html, body, .App, #root {
+  height: 100%;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+}
+
+:root {
+  background-color: #282828;
+  color: #e0e0e0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+  width: 100%;
+  padding: 20px;
+}
+
+#spellcheck-form {
+  max-width: 400px;
+  width: 100%;
+  margin: 90px auto;
+}
+
+img {
+  max-width: 400px;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.form-group {
+  margin-bottom: 1em;
+}
+
+.form-group input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 20px;
+  outline: none;
+  margin-bottom: 0.5em;
+}
+
+#spellcheck-form .btn {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1.5em;
+  font-weight: 500;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  transition: background-color 0.1s;
+  color: white;
+  width: 100%;
+}
+
+#spellcheck-form .btn:hover {
+  border-color: #ffc107;
+}
+
+#spellcheck-form .btn:active {
+  background-color: #ffc107;
+}
+
+#spellcheck-response {
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+}
+#spellcheck-response .response {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  padding: 15px;
+  border: 1px solid #ffc107;
+  height: 200px;
+}
+
+.highlight {
+  color: #ffc107;
+}
+
+.word-input.error input{
+  border: 4px solid #f44336;
+}
+
+.error-msg {
+  color: #f44336;
+  font-size: 1em;
+}
